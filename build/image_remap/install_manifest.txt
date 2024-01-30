@@ -1,0 +1,16 @@
+/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.dsv
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.sh
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.dsv
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.bash
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.sh
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.zsh
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.dsv
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.dsv
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/packages/image_remap
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig.cmake
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig-version.cmake
+/home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.xml

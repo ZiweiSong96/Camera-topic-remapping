@@ -1,0 +1,6 @@
+Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mlabszw/ros2_msg_trans/src/image_remap -DCMAKE_INSTALL_PREFIX=/home/mlabszw/ros2_msg_trans/install/image_remap
+Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mlabszw/ros2_msg_trans/src/image_remap -DCMAKE_INSTALL_PREFIX=/home/mlabszw/ros2_msg_trans/install/image_remap
+Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap
+Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap

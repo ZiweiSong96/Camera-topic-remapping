@@ -1,0 +1,67 @@
+[0.073s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mlabszw/ros2_msg_trans/src/image_remap -DCMAKE_INSTALL_PREFIX=/home/mlabszw/ros2_msg_trans/install/image_remap
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.260s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.513s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.570s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.598s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.607s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.680s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.705s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.711s] -- Looking for pthread.h
+[0.755s] -- Looking for pthread.h - found
+[0.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.803s] -- Found Threads: TRUE  
+[0.927s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.027s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.079s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.080s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlabszw/ros2_msg_trans/src/image_remap/include>
+[1.080s] -- Configured cppcheck exclude dirs and/or files: 
+[1.080s] -- Added test 'lint_cmake' to check CMake code style
+[1.080s] -- Added test 'uncrustify' to check C / C++ code style
+[1.080s] -- Configured uncrustify additional arguments: 
+[1.081s] -- Added test 'xmllint' to check XML markup files
+[1.081s] -- Configuring done
+[1.087s] -- Generating done
+[1.088s] -- Build files have been written to: /home/mlabszw/ros2_msg_trans/build/image_remap
+[1.093s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mlabszw/ros2_msg_trans/src/image_remap -DCMAKE_INSTALL_PREFIX=/home/mlabszw/ros2_msg_trans/install/image_remap
+[1.095s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+[1.124s] [ 50%] [32mBuilding CXX object CMakeFiles/image_remap.dir/src/image_remap.cpp.o[0m
+[9.001s] [100%] [32m[1mLinking CXX executable image_remap[0m
+[9.326s] [100%] Built target image_remap
+[9.332s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+[9.352s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap
+[9.356s] -- Install configuration: ""
+[9.356s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap
+[9.360s] -- Set runtime path of "/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap" to ""
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.dsv
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.sh
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.dsv
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.bash
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.sh
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.zsh
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.dsv
+[9.360s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.dsv
+[9.361s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/packages/image_remap
+[9.361s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig.cmake
+[9.361s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig-version.cmake
+[9.361s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.xml
+[9.362s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap
