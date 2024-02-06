@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000087] (image_remap) JobQueued: {'identifier': 'image_remap', 'dependencies': OrderedDict()}
+[0.000110] (image_remap) JobStarted: {'identifier': 'image_remap'}
+[0.056561] (image_remap) JobProgress: {'identifier': 'image_remap', 'progress': 'cmake'}
+[0.056940] (image_remap) JobProgress: {'identifier': 'image_remap', 'progress': 'build'}
+[0.057669] (image_remap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mlabszw/ros2_msg_trans/build/image_remap', '--', '-j16', '-l16'], 'cwd': '/home/mlabszw/ros2_msg_trans/build/image_remap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mlabszw'), ('LC_TIME', 'en_HK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mlabszw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_HK.UTF-8'), ('SYSTEMD_EXEC_PID', '3565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'mlabszw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mlabszw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/nvidia/nsight-systems/2023.4.1/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/mlabszw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mlabszw/.local/bin:/home/mlabszw/.local/bin'), ('SESSION_MANAGER', 'local/mlabszw-Precision-3640-Tower:@/tmp/.ICE-unix/2119,unix/mlabszw-Precision-3640-Tower:/tmp/.ICE-unix/2119'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0dd1bc99_e6a0_4c5a_bd6c_bdf97c6a434d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/mlabszw/ros2_msg_trans/build/image_remap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099687] (-) TimerEvent: {}
+[0.129140] (image_remap) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199840] (-) TimerEvent: {}
+[0.300537] (-) TimerEvent: {}
+[0.400925] (-) TimerEvent: {}
+[0.439708] (image_remap) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501087] (-) TimerEvent: {}
+[0.601798] (-) TimerEvent: {}
+[0.630347] (image_remap) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.651748] (image_remap) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.678119] (image_remap) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701953] (-) TimerEvent: {}
+[0.724429] (image_remap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.754494] (image_remap) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802069] (-) TimerEvent: {}
+[0.844916] (image_remap) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.854389] (image_remap) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.902334] (-) TimerEvent: {}
+[1.002935] (-) TimerEvent: {}
+[1.016646] (image_remap) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.103024] (-) TimerEvent: {}
+[1.203344] (-) TimerEvent: {}
+[1.276625] (image_remap) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.303462] (-) TimerEvent: {}
+[1.403748] (-) TimerEvent: {}
+[1.413199] (image_remap) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.503956] (-) TimerEvent: {}
+[1.520848] (image_remap) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.521726] (image_remap) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlabszw/ros2_msg_trans/src/image_remap/include>\n'}
+[1.522144] (image_remap) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.524564] (image_remap) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.527960] (image_remap) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.528387] (image_remap) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.529580] (image_remap) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.533295] (image_remap) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.587968] (image_remap) StdoutLine: {'line': b'-- Generating done\n'}
+[1.593732] (image_remap) StdoutLine: {'line': b'-- Build files have been written to: /home/mlabszw/ros2_msg_trans/build/image_remap\n'}
+[1.604115] (-) TimerEvent: {}
+[1.637167] (image_remap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.o\x1b[0m\n'}
+[1.637384] (image_remap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.o\x1b[0m\n'}
+[1.704215] (-) TimerEvent: {}
+[1.804479] (-) TimerEvent: {}
+[1.904727] (-) TimerEvent: {}
+[2.004986] (-) TimerEvent: {}
+[2.105233] (-) TimerEvent: {}
+[2.205496] (-) TimerEvent: {}
+[2.305725] (-) TimerEvent: {}
+[2.405985] (-) TimerEvent: {}
+[2.506245] (-) TimerEvent: {}
+[2.606530] (-) TimerEvent: {}
+[2.706791] (-) TimerEvent: {}
+[2.807060] (-) TimerEvent: {}
+[2.907321] (-) TimerEvent: {}
+[3.007587] (-) TimerEvent: {}
+[3.107852] (-) TimerEvent: {}
+[3.208116] (-) TimerEvent: {}
+[3.264570] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:8:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.264715] (image_remap) StderrLine: {'line': b'    8 |     \x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K():Node("image_remap_10")\n'}
+[3.264769] (image_remap) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.275390] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:8:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.275488] (image_remap) StderrLine: {'line': b'    8 |     \x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K():Node("image_remap_30")\n'}
+[3.275539] (image_remap) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.308235] (-) TimerEvent: {}
+[3.323675] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ImageRemap_10::ImageRemap()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.323936] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:8:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[3.324007] (image_remap) StderrLine: {'line': b'    8 |     ImageRemap():\x1b[01;31m\x1b[KNode\x1b[m\x1b[K("image_remap_10")\n'}
+[3.324057] (image_remap) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.324103] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:15:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.324150] (image_remap) StderrLine: {'line': b'   15 |         std::bind(&\x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K::imageCallback,this,std::placeholders::_1)\n'}
+[3.324195] (image_remap) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.324239] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:19:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.324283] (image_remap) StderrLine: {'line': b'   19 |         std::bind(&\x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K::cameraInfoCallback,this,std::placeholders::_1)\n'}
+[3.324336] (image_remap) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.325732] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:41:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.325813] (image_remap) StderrLine: {'line': b'   41 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.325863] (image_remap) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.338653] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint ImageRemap_30::ImageRemap()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.338930] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:8:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Konly constructors take member initializers\n'}
+[3.338990] (image_remap) StderrLine: {'line': b'    8 |     ImageRemap():\x1b[01;31m\x1b[KNode\x1b[m\x1b[K("image_remap_30")\n'}
+[3.339038] (image_remap) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.339083] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:15:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.339129] (image_remap) StderrLine: {'line': b'   15 |         std::bind(&\x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K::imageCallback,this,std::placeholders::_1)\n'}
+[3.339172] (image_remap) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.339215] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:19:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.339258] (image_remap) StderrLine: {'line': b'   19 |         std::bind(&\x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K::cameraInfoCallback,this,std::placeholders::_1)\n'}
+[3.339300] (image_remap) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.340751] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:42:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[3.340824] (image_remap) StderrLine: {'line': b'   42 |       std::bind(&\x1b[01;31m\x1b[KImageRemap\x1b[m\x1b[K::timer_callback, this));\n'}
+[3.340873] (image_remap) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.340919] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:43:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kno return statement in function returning non-void [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.340967] (image_remap) StderrLine: {'line': b'   43 |     \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[3.341011] (image_remap) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.408350] (-) TimerEvent: {}
+[3.508610] (-) TimerEvent: {}
+[3.608867] (-) TimerEvent: {}
+[3.708820] (image_remap) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.708983] (-) TimerEvent: {}
+[3.709054] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.709119] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.709171] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.709236] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:2\x1b[m\x1b[K:\n'}
+[3.709280] (image_remap) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ImageRemap_10; _Args = {}; _Tp = ImageRemap_10]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.709343] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ImageRemap_10; _Args = {}; _Tp = ImageRemap_10; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ImageRemap_10>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709422] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709574] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709649] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_10>; _Args = {}; _Tp = ImageRemap_10; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709700] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_10>; _Args = {}; _Tp = ImageRemap_10]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709748] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709798] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ImageRemap_10; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709843] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:63:46:\x1b[m\x1b[K   required from here\n'}
+[3.709887] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KImageRemap_10::ImageRemap_10()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.709930] (image_remap) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.709974] (image_remap) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.710017] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap_10::ImageRemap_10()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.710066] (image_remap) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KImageRemap_10\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[3.710109] (image_remap) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.710152] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:6:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.710196] (image_remap) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.710239] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.710281] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.710323] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:2\x1b[m\x1b[K:\n'}
+[3.710365] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.710413] (image_remap) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.710455] (image_remap) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.710515] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.710559] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.710603] (image_remap) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.710646] (image_remap) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.710688] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.710734] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.710777] (image_remap) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.710820] (image_remap) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.710863] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.727110] (image_remap) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[3.727234] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[3.727294] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[3.727341] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[3.727390] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:2\x1b[m\x1b[K:\n'}
+[3.727434] (image_remap) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ImageRemap_30; _Args = {}; _Tp = ImageRemap_30]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.727480] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ImageRemap_30; _Args = {}; _Tp = ImageRemap_30; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ImageRemap_30>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727531] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727580] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727642] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_30>; _Args = {}; _Tp = ImageRemap_30; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727687] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_30>; _Args = {}; _Tp = ImageRemap_30]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727732] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727776] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ImageRemap_30; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727821] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:77:46:\x1b[m\x1b[K   required from here\n'}
+[3.727864] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of deleted function \xe2\x80\x98\x1b[01m\x1b[KImageRemap_30::ImageRemap_30()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.727911] (image_remap) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[3.727969] (image_remap) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.728011] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:6:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImageRemap_30::ImageRemap_30()\x1b[m\x1b[K\xe2\x80\x99 is implicitly deleted because the default definition would be ill-formed:\n'}
+[3.728058] (image_remap) StderrLine: {'line': b'    6 | class \x1b[01;36m\x1b[KImageRemap_30\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[3.728100] (image_remap) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.728142] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:6:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728185] (image_remap) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.728228] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.728269] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.728314] (image_remap) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:2\x1b[m\x1b[K:\n'}
+[3.728357] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728399] (image_remap) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.728441] (image_remap) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.728482] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.728528] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728571] (image_remap) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.728613] (image_remap) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.728655] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[3.728697] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.728739] (image_remap) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[3.728781] (image_remap) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.728823] (image_remap) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.809109] (-) TimerEvent: {}
+[3.909382] (-) TimerEvent: {}
+[3.957456] (image_remap) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_remap_10hz.dir/build.make:76: CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.o] Error 1\n'}
+[3.957681] (image_remap) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_remap_10hz.dir/all] Error 2\n'}
+[3.957753] (image_remap) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.965028] (image_remap) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_remap_30hz.dir/build.make:76: CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.o] Error 1\n'}
+[3.965152] (image_remap) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_remap_30hz.dir/all] Error 2\n'}
+[3.965433] (image_remap) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.967195] (image_remap) CommandEnded: {'returncode': 2}
+[4.009649] (-) TimerEvent: {}
+[4.058925] (image_remap) JobEnded: {'identifier': 'image_remap', 'rc': 2}
+[4.069611] (-) EventReactorShutdown: {}

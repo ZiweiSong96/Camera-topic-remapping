@@ -1,0 +1,26 @@
+[0.132s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+[0.456s] [35m[1mConsolidate compiler generated dependencies of target image_remap[0m
+[0.560s] [ 50%] [32mBuilding CXX object CMakeFiles/image_remap.dir/src/image_remap.cpp.o[0m
+[10.231s] [100%] [32m[1mLinking CXX executable image_remap[0m
+[11.240s] [100%] Built target image_remap
+[11.246s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+[11.267s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap
+[11.272s] -- Install configuration: ""
+[11.345s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap
+[11.368s] -- Set runtime path of "/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap" to ""
+[11.368s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap
+[11.369s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap
+[11.369s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh
+[11.369s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.dsv
+[11.370s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.sh
+[11.370s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.dsv
+[11.370s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.bash
+[11.371s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.sh
+[11.371s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.zsh
+[11.371s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.dsv
+[11.371s] -- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.dsv
+[11.372s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/packages/image_remap
+[11.372s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig.cmake
+[11.372s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig-version.cmake
+[11.372s] -- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.xml
+[11.373s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mlabszw/ros2_msg_trans/build/image_remap

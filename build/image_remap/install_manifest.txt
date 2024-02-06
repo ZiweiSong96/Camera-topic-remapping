@@ -1,4 +1,5 @@
-/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap
+/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap_10hz
+/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap_30hz
 /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap
 /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap
 /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh

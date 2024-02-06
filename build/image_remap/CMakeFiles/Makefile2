@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/mlabszw/ros2_msg_trans/build/image_remap
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/image_remap.dir/all
+all: CMakeFiles/image_remap_10hz.dir/all
+all: CMakeFiles/image_remap_30hz.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +74,8 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/image_remap_uninstall.dir/clean
-clean: CMakeFiles/image_remap.dir/clean
+clean: CMakeFiles/image_remap_10hz.dir/clean
+clean: CMakeFiles/image_remap_30hz.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +131,56 @@ CMakeFiles/image_remap_uninstall.dir/clean:
 .PHONY : CMakeFiles/image_remap_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/image_remap.dir
+# Target rules for target CMakeFiles/image_remap_10hz.dir
 
 # All Build rule for target.
-CMakeFiles/image_remap.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles --progress-num=1,2 "Built target image_remap"
-.PHONY : CMakeFiles/image_remap.dir/all
+CMakeFiles/image_remap_10hz.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles --progress-num=1,2 "Built target image_remap_10hz"
+.PHONY : CMakeFiles/image_remap_10hz.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/image_remap.dir/rule: cmake_check_build_system
+CMakeFiles/image_remap_10hz.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_remap.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_remap_10hz.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles 0
-.PHONY : CMakeFiles/image_remap.dir/rule
+.PHONY : CMakeFiles/image_remap_10hz.dir/rule
 
 # Convenience name for target.
-image_remap: CMakeFiles/image_remap.dir/rule
-.PHONY : image_remap
+image_remap_10hz: CMakeFiles/image_remap_10hz.dir/rule
+.PHONY : image_remap_10hz
 
 # clean rule for target.
-CMakeFiles/image_remap.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/clean
-.PHONY : CMakeFiles/image_remap.dir/clean
+CMakeFiles/image_remap_10hz.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/clean
+.PHONY : CMakeFiles/image_remap_10hz.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/image_remap_30hz.dir
+
+# All Build rule for target.
+CMakeFiles/image_remap_30hz.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles --progress-num=3,4 "Built target image_remap_30hz"
+.PHONY : CMakeFiles/image_remap_30hz.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/image_remap_30hz.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/image_remap_30hz.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mlabszw/ros2_msg_trans/build/image_remap/CMakeFiles 0
+.PHONY : CMakeFiles/image_remap_30hz.dir/rule
+
+# Convenience name for target.
+image_remap_30hz: CMakeFiles/image_remap_30hz.dir/rule
+.PHONY : image_remap_30hz
+
+# clean rule for target.
+CMakeFiles/image_remap_30hz.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/clean
+.PHONY : CMakeFiles/image_remap_30hz.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

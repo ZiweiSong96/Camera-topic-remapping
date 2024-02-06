@@ -198,41 +198,78 @@ image_remap_uninstall/fast:
 .PHONY : image_remap_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named image_remap
+# Target rules for targets named image_remap_10hz
 
 # Build rule for target.
-image_remap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_remap
-.PHONY : image_remap
+image_remap_10hz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_remap_10hz
+.PHONY : image_remap_10hz
 
 # fast build rule for target.
-image_remap/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/build
-.PHONY : image_remap/fast
+image_remap_10hz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/build
+.PHONY : image_remap_10hz/fast
 
-src/image_remap.o: src/image_remap.cpp.o
-.PHONY : src/image_remap.o
+#=============================================================================
+# Target rules for targets named image_remap_30hz
+
+# Build rule for target.
+image_remap_30hz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_remap_30hz
+.PHONY : image_remap_30hz
+
+# fast build rule for target.
+image_remap_30hz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/build
+.PHONY : image_remap_30hz/fast
+
+src/image_remap_10hz.o: src/image_remap_10hz.cpp.o
+.PHONY : src/image_remap_10hz.o
 
 # target to build an object file
-src/image_remap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/src/image_remap.cpp.o
-.PHONY : src/image_remap.cpp.o
+src/image_remap_10hz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.o
+.PHONY : src/image_remap_10hz.cpp.o
 
-src/image_remap.i: src/image_remap.cpp.i
-.PHONY : src/image_remap.i
+src/image_remap_10hz.i: src/image_remap_10hz.cpp.i
+.PHONY : src/image_remap_10hz.i
 
 # target to preprocess a source file
-src/image_remap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/src/image_remap.cpp.i
-.PHONY : src/image_remap.cpp.i
+src/image_remap_10hz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.i
+.PHONY : src/image_remap_10hz.cpp.i
 
-src/image_remap.s: src/image_remap.cpp.s
-.PHONY : src/image_remap.s
+src/image_remap_10hz.s: src/image_remap_10hz.cpp.s
+.PHONY : src/image_remap_10hz.s
 
 # target to generate assembly for a file
-src/image_remap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap.dir/build.make CMakeFiles/image_remap.dir/src/image_remap.cpp.s
-.PHONY : src/image_remap.cpp.s
+src/image_remap_10hz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_10hz.dir/build.make CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.s
+.PHONY : src/image_remap_10hz.cpp.s
+
+src/image_remap_30hz.o: src/image_remap_30hz.cpp.o
+.PHONY : src/image_remap_30hz.o
+
+# target to build an object file
+src/image_remap_30hz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.o
+.PHONY : src/image_remap_30hz.cpp.o
+
+src/image_remap_30hz.i: src/image_remap_30hz.cpp.i
+.PHONY : src/image_remap_30hz.i
+
+# target to preprocess a source file
+src/image_remap_30hz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.i
+.PHONY : src/image_remap_30hz.cpp.i
+
+src/image_remap_30hz.s: src/image_remap_30hz.cpp.s
+.PHONY : src/image_remap_30hz.s
+
+# target to generate assembly for a file
+src/image_remap_30hz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_remap_30hz.dir/build.make CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.s
+.PHONY : src/image_remap_30hz.cpp.s
 
 # Help Target
 help:
@@ -249,10 +286,14 @@ help:
 	@echo "... test"
 	@echo "... image_remap_uninstall"
 	@echo "... uninstall"
-	@echo "... image_remap"
-	@echo "... src/image_remap.o"
-	@echo "... src/image_remap.i"
-	@echo "... src/image_remap.s"
+	@echo "... image_remap_10hz"
+	@echo "... image_remap_30hz"
+	@echo "... src/image_remap_10hz.o"
+	@echo "... src/image_remap_10hz.i"
+	@echo "... src/image_remap_10hz.s"
+	@echo "... src/image_remap_30hz.o"
+	@echo "... src/image_remap_30hz.i"
+	@echo "... src/image_remap_30hz.s"
 .PHONY : help
 
 

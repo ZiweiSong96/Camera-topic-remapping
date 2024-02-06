@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (image_remap) JobQueued: {'identifier': 'image_remap', 'dependencies': OrderedDict()}
+[0.000113] (image_remap) JobStarted: {'identifier': 'image_remap'}
+[0.099622] (-) TimerEvent: {}
+[0.110388] (image_remap) JobProgress: {'identifier': 'image_remap', 'progress': 'cmake'}
+[0.130363] (image_remap) JobProgress: {'identifier': 'image_remap', 'progress': 'build'}
+[0.130504] (image_remap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mlabszw/ros2_msg_trans/build/image_remap', '--', '-j16', '-l16'], 'cwd': '/home/mlabszw/ros2_msg_trans/build/image_remap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mlabszw'), ('LC_TIME', 'en_HK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mlabszw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_HK.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2119'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2eef4b30b9ec0dc8c2bbe7a65c05e09'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'mlabszw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mlabszw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/nvidia/nsight-systems/2023.4.1/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/mlabszw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mlabszw/.local/bin:/home/mlabszw/.local/bin'), ('SESSION_MANAGER', 'local/mlabszw-Precision-3640-Tower:@/tmp/.ICE-unix/2119,unix/mlabszw-Precision-3640-Tower:/tmp/.ICE-unix/2119'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/766d190d_6094_485b_b684_55fde82d9a7b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/mlabszw/ros2_msg_trans/build/image_remap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2eef4b30b9ec0dc8c2bbe7a65c05e09'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199787] (-) TimerEvent: {}
+[0.300315] (-) TimerEvent: {}
+[0.400662] (-) TimerEvent: {}
+[0.456030] (image_remap) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_remap\x1b[0m\n'}
+[0.500802] (-) TimerEvent: {}
+[0.559230] (image_remap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/image_remap.dir/src/image_remap.cpp.o\x1b[0m\n'}
+[0.601025] (-) TimerEvent: {}
+[0.701693] (-) TimerEvent: {}
+[0.802315] (-) TimerEvent: {}
+[0.902930] (-) TimerEvent: {}
+[1.003559] (-) TimerEvent: {}
+[1.104185] (-) TimerEvent: {}
+[1.204824] (-) TimerEvent: {}
+[1.305451] (-) TimerEvent: {}
+[1.406086] (-) TimerEvent: {}
+[1.506555] (-) TimerEvent: {}
+[1.607077] (-) TimerEvent: {}
+[1.707698] (-) TimerEvent: {}
+[1.808288] (-) TimerEvent: {}
+[1.908727] (-) TimerEvent: {}
+[2.009108] (-) TimerEvent: {}
+[2.109466] (-) TimerEvent: {}
+[2.210162] (-) TimerEvent: {}
+[2.310815] (-) TimerEvent: {}
+[2.411056] (-) TimerEvent: {}
+[2.511299] (-) TimerEvent: {}
+[2.611542] (-) TimerEvent: {}
+[2.711780] (-) TimerEvent: {}
+[2.812021] (-) TimerEvent: {}
+[2.912399] (-) TimerEvent: {}
+[3.012614] (-) TimerEvent: {}
+[3.112857] (-) TimerEvent: {}
+[3.213062] (-) TimerEvent: {}
+[3.313328] (-) TimerEvent: {}
+[3.413599] (-) TimerEvent: {}
+[3.513882] (-) TimerEvent: {}
+[3.614123] (-) TimerEvent: {}
+[3.714364] (-) TimerEvent: {}
+[3.814610] (-) TimerEvent: {}
+[3.914907] (-) TimerEvent: {}
+[4.015223] (-) TimerEvent: {}
+[4.115468] (-) TimerEvent: {}
+[4.215712] (-) TimerEvent: {}
+[4.315953] (-) TimerEvent: {}
+[4.416195] (-) TimerEvent: {}
+[4.516436] (-) TimerEvent: {}
+[4.616676] (-) TimerEvent: {}
+[4.716915] (-) TimerEvent: {}
+[4.817177] (-) TimerEvent: {}
+[4.917390] (-) TimerEvent: {}
+[5.017656] (-) TimerEvent: {}
+[5.117872] (-) TimerEvent: {}
+[5.218091] (-) TimerEvent: {}
+[5.318348] (-) TimerEvent: {}
+[5.418592] (-) TimerEvent: {}
+[5.518803] (-) TimerEvent: {}
+[5.619015] (-) TimerEvent: {}
+[5.719297] (-) TimerEvent: {}
+[5.819540] (-) TimerEvent: {}
+[5.919803] (-) TimerEvent: {}
+[6.020111] (-) TimerEvent: {}
+[6.120359] (-) TimerEvent: {}
+[6.220603] (-) TimerEvent: {}
+[6.320880] (-) TimerEvent: {}
+[6.421131] (-) TimerEvent: {}
+[6.521393] (-) TimerEvent: {}
+[6.621694] (-) TimerEvent: {}
+[6.721932] (-) TimerEvent: {}
+[6.822169] (-) TimerEvent: {}
+[6.922406] (-) TimerEvent: {}
+[7.022646] (-) TimerEvent: {}
+[7.122883] (-) TimerEvent: {}
+[7.223119] (-) TimerEvent: {}
+[7.323356] (-) TimerEvent: {}
+[7.423590] (-) TimerEvent: {}
+[7.523835] (-) TimerEvent: {}
+[7.624072] (-) TimerEvent: {}
+[7.724307] (-) TimerEvent: {}
+[7.824542] (-) TimerEvent: {}
+[7.924779] (-) TimerEvent: {}
+[8.025015] (-) TimerEvent: {}
+[8.125252] (-) TimerEvent: {}
+[8.225490] (-) TimerEvent: {}
+[8.325735] (-) TimerEvent: {}
+[8.425971] (-) TimerEvent: {}
+[8.526206] (-) TimerEvent: {}
+[8.626444] (-) TimerEvent: {}
+[8.726678] (-) TimerEvent: {}
+[8.826913] (-) TimerEvent: {}
+[8.927155] (-) TimerEvent: {}
+[9.027393] (-) TimerEvent: {}
+[9.127632] (-) TimerEvent: {}
+[9.227879] (-) TimerEvent: {}
+[9.328128] (-) TimerEvent: {}
+[9.428382] (-) TimerEvent: {}
+[9.528767] (-) TimerEvent: {}
+[9.629113] (-) TimerEvent: {}
+[9.729646] (-) TimerEvent: {}
+[9.829854] (-) TimerEvent: {}
+[9.930067] (-) TimerEvent: {}
+[10.030319] (-) TimerEvent: {}
+[10.130580] (-) TimerEvent: {}
+[10.230856] (-) TimerEvent: {}
+[10.231087] (image_remap) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_remap\x1b[0m\n'}
+[10.330949] (-) TimerEvent: {}
+[10.431291] (-) TimerEvent: {}
+[10.531852] (-) TimerEvent: {}
+[10.632251] (-) TimerEvent: {}
+[10.732842] (-) TimerEvent: {}
+[10.833331] (-) TimerEvent: {}
+[10.933957] (-) TimerEvent: {}
+[11.034415] (-) TimerEvent: {}
+[11.134675] (-) TimerEvent: {}
+[11.234887] (-) TimerEvent: {}
+[11.239842] (image_remap) StdoutLine: {'line': b'[100%] Built target image_remap\n'}
+[11.246303] (image_remap) CommandEnded: {'returncode': 0}
+[11.260856] (image_remap) JobProgress: {'identifier': 'image_remap', 'progress': 'install'}
+[11.267014] (image_remap) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mlabszw/ros2_msg_trans/build/image_remap'], 'cwd': '/home/mlabszw/ros2_msg_trans/build/image_remap', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'mlabszw'), ('LC_TIME', 'en_HK.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mlabszw'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_HK.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2119'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2eef4b30b9ec0dc8c2bbe7a65c05e09'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'mlabszw'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mlabszw'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/nvidia/nsight-systems/2023.4.1/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/mlabszw/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mlabszw/.local/bin:/home/mlabszw/.local/bin'), ('SESSION_MANAGER', 'local/mlabszw-Precision-3640-Tower:@/tmp/.ICE-unix/2119,unix/mlabszw-Precision-3640-Tower:/tmp/.ICE-unix/2119'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_HK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/766d190d_6094_485b_b684_55fde82d9a7b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_HK.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_HK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_HK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_HK.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/mlabszw/ros2_msg_trans/build/image_remap'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=e2eef4b30b9ec0dc8c2bbe7a65c05e09'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_HK.UTF-8'), ('LC_PAPER', 'en_HK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.272555] (image_remap) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.334201] (image_remap) StdoutLine: {'line': b'-- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap\n'}
+[11.344794] (-) TimerEvent: {}
+[11.366983] (image_remap) StdoutLine: {'line': b'-- Set runtime path of "/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap" to ""\n'}
+[11.368092] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap\n'}
+[11.368658] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap\n'}
+[11.368963] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh\n'}
+[11.369243] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.dsv\n'}
+[11.369530] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.sh\n'}
+[11.370002] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.dsv\n'}
+[11.370272] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.bash\n'}
+[11.370535] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.sh\n'}
+[11.370792] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.zsh\n'}
+[11.371053] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.dsv\n'}
+[11.371313] (image_remap) StdoutLine: {'line': b'-- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.dsv\n'}
+[11.371572] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/packages/image_remap\n'}
+[11.371829] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig.cmake\n'}
+[11.372133] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig-version.cmake\n'}
+[11.372242] (image_remap) StdoutLine: {'line': b'-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.xml\n'}
+[11.373057] (image_remap) CommandEnded: {'returncode': 0}
+[11.444977] (-) TimerEvent: {}
+[11.545624] (-) TimerEvent: {}
+[11.646439] (-) TimerEvent: {}
+[11.723336] (image_remap) JobEnded: {'identifier': 'image_remap', 'rc': 0}
+[11.723791] (-) EventReactorShutdown: {}

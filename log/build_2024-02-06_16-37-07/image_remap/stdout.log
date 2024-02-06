@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target image_remap[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_remap.dir/src/image_remap.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_remap[0m
+[100%] Built target image_remap
+-- Install configuration: ""
+-- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap
+-- Set runtime path of "/home/mlabszw/ros2_msg_trans/install/image_remap/lib/image_remap/image_remap" to ""
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/package_run_dependencies/image_remap
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/parent_prefix_path/image_remap
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.sh
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/environment/path.dsv
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.bash
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.sh
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.zsh
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/local_setup.dsv
+-- Installing: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.dsv
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/ament_index/resource_index/packages/image_remap
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig.cmake
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/cmake/image_remapConfig-version.cmake
+-- Up-to-date: /home/mlabszw/ros2_msg_trans/install/image_remap/share/image_remap/package.xml

@@ -1,0 +1,141 @@
+[0.059s] Invoking command in '/home/mlabszw/ros2_msg_trans/build/image_remap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16
+[0.129s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.440s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.631s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.678s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.845s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.854s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.017s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.277s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.413s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.521s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.522s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mlabszw/ros2_msg_trans/src/image_remap/include>
+[1.522s] -- Configured cppcheck exclude dirs and/or files: 
+[1.525s] -- Added test 'lint_cmake' to check CMake code style
+[1.528s] -- Added test 'uncrustify' to check C / C++ code style
+[1.528s] -- Configured uncrustify additional arguments: 
+[1.530s] -- Added test 'xmllint' to check XML markup files
+[1.533s] -- Configuring done
+[1.588s] -- Generating done
+[1.594s] -- Build files have been written to: /home/mlabszw/ros2_msg_trans/build/image_remap
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.o[0m
+[3.265s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:8:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KImageRemap[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.265s]     8 |     [01;31m[KImageRemap[m[K():Node("image_remap_10")
+[3.265s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.275s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:8:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KImageRemap[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.275s]     8 |     [01;31m[KImageRemap[m[K():Node("image_remap_30")
+[3.275s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.324s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:[m[K In member function ‘[01m[Kint ImageRemap_10::ImageRemap()[m[K’:
+[3.324s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:8:18:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[3.324s]     8 |     ImageRemap():[01;31m[KNode[m[K("image_remap_10")
+[3.324s]       |                  [01;31m[K^~~~[m[K
+[3.324s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[KImageRemap[m[K’ is not a class, namespace, or enumeration
+[3.324s]    15 |         std::bind(&[01;31m[KImageRemap[m[K::imageCallback,this,std::placeholders::_1)
+[3.324s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.324s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[KImageRemap[m[K’ is not a class, namespace, or enumeration
+[3.324s]    19 |         std::bind(&[01;31m[KImageRemap[m[K::cameraInfoCallback,this,std::placeholders::_1)
+[3.324s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.326s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:41:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.326s]    41 |     [01;35m[K}[m[K
+[3.326s]       |     [01;35m[K^[m[K
+[3.339s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:[m[K In member function ‘[01m[Kint ImageRemap_30::ImageRemap()[m[K’:
+[3.339s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:8:18:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[3.339s]     8 |     ImageRemap():[01;31m[KNode[m[K("image_remap_30")
+[3.339s]       |                  [01;31m[K^~~~[m[K
+[3.339s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:15:20:[m[K [01;31m[Kerror: [m[K‘[01m[KImageRemap[m[K’ is not a class, namespace, or enumeration
+[3.339s]    15 |         std::bind(&[01;31m[KImageRemap[m[K::imageCallback,this,std::placeholders::_1)
+[3.339s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.339s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:19:20:[m[K [01;31m[Kerror: [m[K‘[01m[KImageRemap[m[K’ is not a class, namespace, or enumeration
+[3.339s]    19 |         std::bind(&[01;31m[KImageRemap[m[K::cameraInfoCallback,this,std::placeholders::_1)
+[3.339s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[3.341s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:42:18:[m[K [01;31m[Kerror: [m[K‘[01m[KImageRemap[m[K’ is not a class, namespace, or enumeration
+[3.341s]    42 |       std::bind(&[01;31m[KImageRemap[m[K::timer_callback, this));
+[3.341s]       |                  [01;31m[K^~~~~~~~~~[m[K
+[3.341s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:43:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.341s]    43 |     [01;35m[K}[m[K
+[3.341s]       |     [01;35m[K^[m[K
+[3.709s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[3.709s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[3.709s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[3.709s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.709s]                  from [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:2[m[K:
+[3.709s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ImageRemap_10; _Args = {}; _Tp = ImageRemap_10][m[K’:
+[3.709s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ImageRemap_10; _Args = {}; _Tp = ImageRemap_10; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ImageRemap_10>][m[K’
+[3.709s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.710s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.710s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_10>; _Args = {}; _Tp = ImageRemap_10; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.710s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_10>; _Args = {}; _Tp = ImageRemap_10][m[K’
+[3.710s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ImageRemap_10; _Alloc = std::allocator<ImageRemap_10>; _Args = {}][m[K’
+[3.710s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ImageRemap_10; _Args = {}][m[K’
+[3.710s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:63:46:[m[K   required from here
+[3.710s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KImageRemap_10::ImageRemap_10()[m[K’
+[3.710s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[3.710s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.710s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:6:7:[m[K [01;36m[Knote: [m[K‘[01m[KImageRemap_10::ImageRemap_10()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[3.710s]     6 | class [01;36m[KImageRemap_10[m[K : public rclcpp::Node{
+[3.710s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.710s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:6:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[3.710s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.710s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.710s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.710s]                  from [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_10hz.cpp:2[m[K:
+[3.710s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[3.710s]  1294 |   [01;36m[KNode[m[K(
+[3.710s]       |   [01;36m[K^~~~[m[K
+[3.710s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.710s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[3.711s]   101 |   explicit [01;36m[KNode[m[K(
+[3.711s]       |            [01;36m[K^~~~[m[K
+[3.711s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[3.711s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[3.711s]    89 |   explicit [01;36m[KNode[m[K(
+[3.711s]       |            [01;36m[K^~~~[m[K
+[3.711s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.727s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[3.727s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[3.727s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[3.727s]                  from [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:2[m[K:
+[3.727s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ImageRemap_30; _Args = {}; _Tp = ImageRemap_30][m[K’:
+[3.727s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ImageRemap_30; _Args = {}; _Tp = ImageRemap_30; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<ImageRemap_30>][m[K’
+[3.727s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.727s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.728s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_30>; _Args = {}; _Tp = ImageRemap_30; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[3.728s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ImageRemap_30>; _Args = {}; _Tp = ImageRemap_30][m[K’
+[3.728s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ImageRemap_30; _Alloc = std::allocator<ImageRemap_30>; _Args = {}][m[K’
+[3.728s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ImageRemap_30; _Args = {}][m[K’
+[3.728s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:77:46:[m[K   required from here
+[3.728s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KImageRemap_30::ImageRemap_30()[m[K’
+[3.728s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[3.728s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:6:7:[m[K [01;36m[Knote: [m[K‘[01m[KImageRemap_30::ImageRemap_30()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[3.728s]     6 | class [01;36m[KImageRemap_30[m[K : public rclcpp::Node{
+[3.728s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.728s] [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:6:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+[3.728s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.728s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.728s]                  from [01m[K/home/mlabszw/ros2_msg_trans/src/image_remap/src/image_remap_30hz.cpp:2[m[K:
+[3.728s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+[3.728s]  1294 |   [01;36m[KNode[m[K(
+[3.728s]       |   [01;36m[K^~~~[m[K
+[3.728s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.728s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+[3.728s]   101 |   explicit [01;36m[KNode[m[K(
+[3.729s]       |            [01;36m[K^~~~[m[K
+[3.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[3.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+[3.729s]    89 |   explicit [01;36m[KNode[m[K(
+[3.729s]       |            [01;36m[K^~~~[m[K
+[3.729s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[3.957s] gmake[2]: *** [CMakeFiles/image_remap_10hz.dir/build.make:76: CMakeFiles/image_remap_10hz.dir/src/image_remap_10hz.cpp.o] Error 1
+[3.958s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/image_remap_10hz.dir/all] Error 2
+[3.958s] gmake[1]: *** Waiting for unfinished jobs....
+[3.965s] gmake[2]: *** [CMakeFiles/image_remap_30hz.dir/build.make:76: CMakeFiles/image_remap_30hz.dir/src/image_remap_30hz.cpp.o] Error 1
+[3.965s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/image_remap_30hz.dir/all] Error 2
+[3.965s] gmake: *** [Makefile:146: all] Error 2
+[3.967s] Invoked command in '/home/mlabszw/ros2_msg_trans/build/image_remap' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mlabszw/ros2_msg_trans/build/image_remap -- -j16 -l16

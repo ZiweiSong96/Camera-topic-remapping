@@ -13,14 +13,23 @@ find_package(sensor_msgs REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-add_executable(image_remap src/image_remap.cpp)
-target_include_directories(image_remap PUBLIC
+add_executable(image_remap_10hz src/image_remap_10hz.cpp)
+target_include_directories(image_remap_10hz PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
-ament_target_dependencies(image_remap rclcpp sensor_msgs)
-target_compile_features(image_remap PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(image_remap_10hz rclcpp sensor_msgs)
+target_compile_features(image_remap_10hz PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+install(TARGETS image_remap_10hz
+  DESTINATION lib/${PROJECT_NAME})
 
-install(TARGETS image_remap
+
+add_executable(image_remap_30hz src/image_remap_30hz.cpp)
+target_include_directories(image_remap_30hz PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+ament_target_dependencies(image_remap_30hz rclcpp sensor_msgs)
+target_compile_features(image_remap_30hz PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+install(TARGETS image_remap_30hz
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
