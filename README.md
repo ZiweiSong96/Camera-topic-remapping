@@ -10,3 +10,6 @@ Note that this node only change the name of topics to meet the Autoware launch f
 In Autoware.Universe, the yolo node which designed for providing 2D rois outputs cannot be launched correctly, so that the yolo node should be launched individually.
 
 
+## 20240206
+
+In classical ADS model, the frequency of cameras for 2D perception is 30 hz, so a ros2 node that cache and publish the old camera data from AWSIM to increase the pubilsh requency is developed.
